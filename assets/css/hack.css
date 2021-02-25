@@ -13,6 +13,9 @@ body {
     Bitstream Vera Sans Mono, Courier New, monospace, serif;
   word-wrap: break-word;
   background-color: rgba(216, 210, 210, 0.55);
+  background-image: url("../../img/797E3A3.png");
+  background-size: 20%;
+  background-attachment: fixed;
 }
 h1,
 h2,
@@ -24,9 +27,9 @@ h6 {
 }
 .img {
   /* background-image: url("https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNjUzMDgvb3JpZ2luYWxfNTM3NGViNjdkMDk0ODZhNjFkNDc4OGI3OWQ5N2E4MWUucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxODAwLCJoZWlnaHQiOjE4MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6OTB9LCJyb3RhdGUiOm51bGwsImpwZWciOnsicXVhbGl0eSI6OTB9fX0=?bc=1"); */
-  background-image: url("../../img/797E3A3.png");
+  /* background-image: url("../../img/797E3A3.png");
   background-size: 20%;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 fieldset {
   border: none;
