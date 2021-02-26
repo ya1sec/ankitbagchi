@@ -166,8 +166,8 @@ a:hover:visited {
   /* background-color: white; */
 }
 .name {
-  z-index: -1;
-  padding: 8px;
+  padding-left: 8px;
+  margin-top: 40px;
   /* background-color: white; */
 }
 
