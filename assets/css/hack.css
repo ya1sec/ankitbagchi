@@ -18,9 +18,20 @@ body {
     Bitstream Vera Sans Mono, Courier New, monospace, serif;
   word-wrap: break-word;
   background-color: rgba(216, 210, 210, 0.55);
-  background-image: url("../../img/797E3A3.png");
+  /* background-image: url("../../img/797E3A3.png");
   background-size: 20%;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+}
+.image {
+  position: fixed;
+  margin: 0 auto;
+  filter: blur(1.5em);
+  padding: 10px;
+}
+.center {
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 70%;
 }
 h1,
 h2,
@@ -42,11 +53,11 @@ fieldset {
   margin: 0;
 }
 pre {
-  padding: 2rem;
+  /* padding: 2rem;
   margin: 1.75rem 0;
   background-color: #fff;
-  border: 1px solid #ccc;
-  overflow: auto;
+  border: 1px solid #ccc; */
+  overflow: hidden;
 }
 code[class*="language-"],
 pre[class*="language-"],
@@ -129,7 +140,7 @@ a:hover:visited {
 }
 
 .name {
-  padding-left: 8px;
+  padding: 8px;
   position: fixed;
   /* background-color: white; */
 }
