@@ -140,7 +140,7 @@ a:hover:visited {
 }
 
 .name {
-  padding: 8px;
+  padding-left: 8px;
   position: fixed;
   /* background-color: white; */
 }
