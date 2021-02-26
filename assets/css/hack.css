@@ -158,11 +158,16 @@ a:hover:visited {
   background-color: #d79921;
 }
 
-.name {
+.clock-div {
   z-index: -1;
   position: relative;
   padding: 8px;
   position: fixed;
+  /* background-color: white; */
+}
+.name {
+  z-index: -1;
+  padding: 8px;
   /* background-color: white; */
 }
 
@@ -686,4 +691,39 @@ wing[data-side="right"] {
 .clock.-small .s_pointer {
   stroke-width: 5px;
   stroke: red;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+
+@media only screen and (min-width: 1000px) {
+  /* Styles */
+
+  .name {
+    z-index: -1;
+    padding: 8px;
+    position: fixed;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles */
 }
