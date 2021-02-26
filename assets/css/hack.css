@@ -140,7 +140,7 @@ a:hover:visited {
 }
 
 .name {
-  padding-left: 8px;
+  padding: 8px;
   position: fixed;
   /* background-color: white; */
 }
@@ -603,4 +603,61 @@ wing[data-side="right"] {
 .round {
   border-radius: 1em;
   overflow: hidden;
+}
+
+.clockcontainer {
+  width: 50;
+  height: 50;
+}
+.clock {
+  fill: transparent;
+  stroke: currentColor;
+  height: auto;
+  width: 1.5rem;
+}
+.clock .surface {
+  stroke-width: 4px;
+}
+.clock .h_pointer {
+  stroke-width: 4px;
+}
+.clock .m_pointer {
+  stroke-width: 4px;
+}
+.clock .s_pointer {
+  stroke-width: 4px;
+  stroke: red;
+}
+.clock.-large {
+  width: 50px;
+  height: 50px;
+}
+.clock.-large .surface {
+  stroke-width: 1px;
+}
+.clock.-large .h_pointer {
+  stroke-width: 1px;
+}
+.clock.-large .m_pointer {
+  stroke-width: 1px;
+}
+.clock.-large .s_pointer {
+  stroke-width: 1px;
+  stroke: red;
+}
+.clock.-small {
+  width: 1.1rem;
+}
+.clock.-small .surface {
+  stroke-width: 5px;
+}
+.clock.-small .h_pointer {
+  stroke-width: 5px;
+}
+.clock.-small .m_pointer {
+  stroke-width: 5px;
+}
+.clock.-small .s_pointer {
+  stroke-width: 5px;
+  stroke: red;
 }

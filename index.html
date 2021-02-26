@@ -32,12 +32,16 @@
   </head>
   <body class="hack">
     <div class="name">
-      <iframe
-        width="50"
-        height="50"
-        src="http://dexteredwards.github.io/portfolio-frames/artspace-clock/index.html"
-      ></iframe>
-      <br />
+      <div class="clockcontainer">
+        <svg class="clock -large" viewBox="0 0 100 100" width="50" height="50">
+          <circle class="surface" cx="50" cy="50" r="45" />
+          <g class="pointers">
+            <line class="s_pointer" x1="50" y1="60" x2="50" y2="13" />
+            <line class="h_pointer" x1="50" y1="50" x2="50" y2="27" />
+            <line class="m_pointer" x1="50" y1="50" x2="50" y2="17" />
+          </g>
+        </svg>
+      </div>
       <small class="ankit">ankit bagchi</small>
       <br />
       <small class="ankit">new york, 2021</small>
@@ -316,5 +320,9 @@
       <br />
     </div>
     <script src="script.js"></script>
+    <script src="assets/js/lib/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/lib/moment.js"></script>
+    <script src="assets/js/lib/moment-timezone-with-data.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
