@@ -27,7 +27,6 @@ body {
 }
 
 .ankit {
-  mix-blend-mode: difference;
 }
 
 .image {
@@ -160,6 +159,8 @@ a:hover:visited {
 }
 
 .name {
+  z-index: -1;
+  position: relative;
   padding: 8px;
   position: fixed;
   /* background-color: white; */
@@ -631,7 +632,8 @@ wing[data-side="right"] {
 }
 .clock {
   fill: transparent;
-  stroke: currentColor;
+  /* stroke: currentColor; */
+  stroke: #458588;
   height: auto;
   width: 1.5rem;
 }
@@ -643,10 +645,12 @@ wing[data-side="right"] {
 }
 .clock .m_pointer {
   stroke-width: 4px;
+  stroke: currentColor;
 }
 .clock .s_pointer {
   stroke-width: 4px;
-  stroke: red;
+  /* stroke: red; */
+  stroke: #d79921;
 }
 .clock.-large {
   width: 50px;
@@ -657,13 +661,15 @@ wing[data-side="right"] {
 }
 .clock.-large .h_pointer {
   stroke-width: 1px;
+  stroke: red;
 }
 .clock.-large .m_pointer {
   stroke-width: 1px;
+  stroke: black;
 }
 .clock.-large .s_pointer {
   stroke-width: 1px;
-  stroke: red;
+  stroke: #d79921;
 }
 .clock.-small {
   width: 1.1rem;
