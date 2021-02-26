@@ -26,6 +26,10 @@ body {
 .main-container {
 }
 
+.ankit {
+  mix-blend-mode: difference;
+}
+
 .image {
   position: fixed;
   /* margin: 0 auto; */
@@ -158,7 +162,6 @@ a:hover:visited {
 .name {
   padding: 8px;
   position: fixed;
-  mix-blend-mode: difference;
   /* background-color: white; */
 }
 
